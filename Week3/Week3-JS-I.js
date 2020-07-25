@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 //In these first 6 questions, replace `null` with the answer
 
@@ -28,7 +28,7 @@ const newModulo = 21 % 5 === 1;
 // 7
 function returnString(str) {
   //simply return the string provided: str
-  return str
+  return str;
 }
 
 // 8
@@ -37,7 +37,7 @@ function add(x, y) {
   // add x and y together and return the value
   // code here
   let sum = x + y;
-  return sum
+  return sum;
 }
 
 // 9
@@ -45,7 +45,7 @@ function subtract(x, y) {
   // subtract y from x and return the value
   // code here
   let difference = x - y;
-  return difference
+  return difference;
 }
 
 // 10
@@ -53,7 +53,7 @@ function multiply(x, y) {
   // multiply x by y and return the value
   // code here
   let product = x * y;
-  return product
+  return product;
 }
 
 // 11
@@ -61,7 +61,7 @@ function divide(x, y) {
   // divide x by y and return the value
   // code here
   let quotient = x / y;
-  return quotient
+  return quotient;
 }
 
 // 12
@@ -70,9 +70,9 @@ function areEqual(x, y) {
   // otherwise return false
   // code here
   if (x === y) {
-    return true
+    return true;
   } else {
-    return false
+    return false;
   }
 }
 
@@ -82,9 +82,9 @@ function areSameLength(str1, str2) {
   // otherwise return false
   // code here
   if (str1.length === str2.length) {
-    return true
+    return true;
   } else {
-    return false
+    return false;
   }
 }
 
@@ -94,9 +94,9 @@ function lessThanNinety(num) {
   // otherwise return false
   // code here
   if (num < 90) {
-    return true
+    return true;
   } else {
-    return false
+    return false;
   }
 }
 
@@ -106,9 +106,9 @@ function greaterThanFifty(num) {
   // otherwise return false
   // code here
   if (num > 50) {
-    return true
+    return true;
   } else {
-    return false
+    return false;
   }
 }
 
@@ -117,7 +117,7 @@ function getRemainder(x, y) {
   // return the remainder from dividing x by y
   // code here
   let remainder = x % y;
-  return remainder
+  return remainder;
 }
 
 // 17
@@ -127,9 +127,9 @@ function isEven(num) {
   // code here
   let remainder = num % 2;
   if (remainder === 0) {
-    return true
+    return true;
   } else {
-    return false
+    return false;
   }
 }
 
@@ -140,9 +140,9 @@ function isOdd(num) {
   // code here
   let remainder = num % 2;
   if (remainder === 1) {
-    return true
+    return true;
   } else {
-    return false
+    return false;
   }
 }
 
@@ -152,7 +152,7 @@ function square(num) {
   // hint: NOT square root!
   // code here
   let squared = num * num;
-  return squared
+  return squared;
 }
 
 // 20
@@ -160,7 +160,7 @@ function cube(num) {
   // cube num and return the new value
   // code here
   let cubed = num * num * num;
-  return cubed
+  return cubed;
 }
 
 // 21
@@ -168,7 +168,7 @@ function raiseToPower(num, exponent) {
   // raise num to whatever power is passed in as exponent
   // code here
   let raisedToAPower = Math.pow(num, exponent);
-  return raisedToAPower
+  return raisedToAPower;
 }
 
 // 22
@@ -176,7 +176,7 @@ function roundNumber(num) {
   // round num and return it
   // code here
   let rounded = Math.round(num);
-  return rounded
+  return rounded;
 }
 
 // 23
@@ -184,7 +184,7 @@ function roundUp(num) {
   // round num up and return it
   // code here
   let roundedUp = Math.ceil(num);
-  return roundedUp
+  return roundedUp;
 }
 
 // 24
@@ -193,7 +193,7 @@ function addExclamationPoint(str) {
   // 'hello world' -> 'hello world!'
   // code here
   let excitedString = `${str}!`;
-  return excitedString
+  return excitedString;
 }
 
 // 25
@@ -202,7 +202,7 @@ function combineNames(firstName, lastName) {
   // 'NSS', 'Bootcamp' -> 'NSS Bootcamp'
   // code here
   let fullName = `${firstName} ${lastName}`;
-  return fullName
+  return fullName;
 }
 
 // 26
@@ -211,7 +211,7 @@ function getGreeting(name) {
   // 'Sam' -> 'Hello Sam!'
   // code here
   let greeting = `Hello ${name}!`;
-  return greeting
+  return greeting;
 }
 
 // The next three questions will have you implement math area formulas.
@@ -222,13 +222,13 @@ function getRectangleArea(length, width) {
   // return the area of the rectangle by using length and width
   // code here
   let area = length * width;
-  return area
+  return area;
 }
 
 // 28
 function getTriangleArea(base, height) {
   // return the area of the triangle by using base and height
   // code here
-  let triangleArea = (base * height) / 2
-  return triangleArea
+  let triangleArea = (base * height) / 2;
+  return triangleArea;
 }
